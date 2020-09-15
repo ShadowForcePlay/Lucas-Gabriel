@@ -172,6 +172,8 @@ html, body{
 
     flex-wrap: wrap;
     flex-direction: column;
+
+    background-color: white;
 }
 
 .Sugestões h2{
@@ -202,8 +204,6 @@ html, body{
     background-color: lightblue;
 }
 
-ongs
-
 /* PROJETO */
 
 .numeros{
@@ -229,7 +229,7 @@ ongs
     
     max-width: 1800px;
     min-height: 400px;
-    display: block;
+    display: flex;
 
     flex-wrap: wrap;
     justify-content: center;
