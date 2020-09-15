@@ -225,7 +225,6 @@ html, body{
 .numeros-cards{
     flex: 50%;
     padding: 0px 50px;
-    text-align: center;
 
     
     max-width: 1800px;
@@ -240,7 +239,7 @@ html, body{
 
 .sobre-problemas {
     flex: 50%;
-    display: flex;
+    display: block;
 }
 
 .sobre-problemas p{
