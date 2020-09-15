@@ -137,6 +137,7 @@ html, body{
     font-size: 30px;
     text-align: left;
     padding-right: 400px;
+    padding-left: 10px;
 }
 
 .sobre-problemas p{
@@ -170,6 +171,11 @@ html, body{
     padding: 30px 0px 20px 0px;
 
     flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Sugestões h2{
+    color: black;
 }
 
 .card{
@@ -196,6 +202,8 @@ html, body{
     background-color: lightblue;
 }
 
+ongs
+
 /* PROJETO */
 
 .numeros{
@@ -221,13 +229,11 @@ html, body{
     
     max-width: 1800px;
     min-height: 400px;
-    display: flex;
+    display: block;
 
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
-    color: white;
 
 }
 
@@ -243,19 +249,19 @@ html, body{
 
 /* ONGs */
 
-.ecopontos{
+.ongs{
     max-width: 100%;
     background-color: white;
     padding: 30px 0px 20px 0px;
 }
 
-.ecopontos h1{
+.ongs h1{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
 }
 
-.ecopontos h2{
+.ongs h2{
     text-align: center;
     font-size: 16px;
 }
@@ -298,7 +304,7 @@ html, body{
     font-weight: bold;
 }
 
-.card-ecopontos{
+.card-ongs{
     text-align: center;
     margin: 10px;
     box-shadow: 2px 7px 8px #777777;
@@ -311,7 +317,7 @@ html, body{
     animation: ease height 2s;
 }
 
-.card-ecopontos img{
+.card-ongs img{
     max-width: 100%;
     max-height: 100%;
 }
