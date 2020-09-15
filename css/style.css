@@ -236,12 +236,12 @@ html, body{
 
 }
 
-.sobre-problemas {
+.sobre-problemaspp {
     flex: 50%;
     display: block;
 }
 
-.sobre-problemas p{
+.sobre-problemaspp p{
     text-align: justify;
     line-height: 1.4;
 }
