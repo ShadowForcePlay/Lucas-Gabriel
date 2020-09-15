@@ -219,9 +219,9 @@ html, body{
     padding: 0px 50px;
 }
 
-.sobre-problemas h1{
-    font-size: 30px;
-    text-align: center;
+.sobre-problemas {
+    flex: 50%;
+    display: block;
 }
 
 .sobre-problemas p{
