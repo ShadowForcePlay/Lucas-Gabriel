@@ -494,24 +494,44 @@ footer{
     display: none;
 }
 
-.capa img{
-    display: flex;
-    padding-right: 320px;
-    padding-top: 150px;
+.capa img{    
+    margin: 0;
+    font-size: 17px;
+    width: 360px;
+    font-size: 20px;
+    padding: 5px 10px;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+    margin-left: -330px;
     border-style: none;
-    width: 600px;
+    width: 250px;
 }
 
 .capa p{
-    max-width: 100%;
+    margin: 0;
+    font-size: 17px;
+    width: 360px;
     font-size: 20px;
     padding: 5px 10px;
+    align-items: center;
     text-align: center;
+    padding-top: 20px;
+    margin-left: -330px;
 }
 
 .capa .botao{
-    margin-right: 0px;
-    padding: 5px 30px;
+    border-left: 3px solid greenyellow;
+    border-right: 3px solid greenyellow;
+    padding: 6px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #a21942;
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
      /* FIM/CAPA */
@@ -529,7 +549,6 @@ footer{
 
          max-width: 100%;
          padding: 30px 0px 20px 0px;
-
      }
 
     .sobre-problemas{
@@ -540,7 +559,7 @@ footer{
 
     .video{
          width: 360px;
-         height: 200px;
+         height: 300px;
     }
 
     .problemas p{
