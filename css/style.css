@@ -449,14 +449,12 @@ footer{
 
 .flex-container{
     flex-direction: column;
-    display: flex;
     align-items: center;
     padding: 0px;
-    max-width: 100%;
 }
 
 .menu-nav{
-    padding: 4px 1px;
+    padding: 5px 1px;
     width: 100%;
     text-align: center;
     margin-top: 5px;
@@ -472,8 +470,6 @@ footer{
     width: 100%;
     text-align: center;
     margin-top: 5px;
-
-    font-weight: 100;
 }
 
 .fundo{
