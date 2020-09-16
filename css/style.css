@@ -235,17 +235,7 @@ html, body{
     align-items: center;
 
 }
-
-.sobre-problemaspp {
-    flex: 50%;
-    display: block;
-}
-
-.sobre-problemaspp p{
-    text-align: justify;
-    line-height: 1.4;
-}
-
+ 
 /* ONGs */
 
 .ongs{
