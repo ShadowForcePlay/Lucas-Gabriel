@@ -489,6 +489,7 @@ footer{
 .capa{
     min-height: 90vh;
     align-items: center;
+    max-width: 100%;
 }
 
 .capa h1{
@@ -498,19 +499,14 @@ footer{
 .capa img{
     display: flex;
     padding-right: 320px;
-    padding-top: 100px;
+    padding-top: 150px;
     border-style: none;
+    width: 600px;
 }
 
 .capa h2{
-    font-size: 20px;
-    padding: 5px 10px 5px 10px;
-    text-align: center;
-    padding-right: 000px ;
-    margin-right: 335px;
-    text-align: center;
-    display: flex;
-    min-width: 375px;
+    margin-right: 310px;
+    min-width: 350px;
 }
 
 .capa .botao{
@@ -572,6 +568,11 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+
+    .card-ongs{
+        min-height: 380px;
+    }
+
     
     /* SOBRE MIM */
 
@@ -580,7 +581,7 @@ footer{
     }
 
     .sobremim{
-        padding: 0px 5px;
+        padding: 0px 20px;
     }
 
     .foto{
