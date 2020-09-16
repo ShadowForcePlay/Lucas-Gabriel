@@ -503,12 +503,12 @@ footer{
 }
 
 .capa h2{
-    margin-right: 310px;
+    margin-right: 0px;
     min-width: 350px;
 }
 
 .capa .botao{
-    margin-right: 320px;
+    margin-right: 0px;
     padding: 5px 30px;
 }
 
