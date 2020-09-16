@@ -46,7 +46,7 @@ html, body{
 /* CAPA */
 
 .fundo{
-    background-color: white;
+    background-image: url(../img/foto-capa.jpg);
     min-height: 750px;
 }
 
@@ -70,7 +70,7 @@ html, body{
     font-size: 50px;
     max-width: 700px;
     margin-bottom: 25px;
-    color: black;
+    color: white;
     margin-top: 90px;
 }
 
@@ -83,7 +83,7 @@ html, body{
     max-width: 500px;
     font-size: 20px;
     margin-top: 20px;
-    color: black;
+    color: white;
     text-align: center;
     justify-content: center;
     line-height: 1.4;
@@ -430,7 +430,7 @@ footer{
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 760px){
+@media (max-width: 803px){
 
     /* HEADER */
 
@@ -455,7 +455,7 @@ footer{
 }
 
 .menu-nav{
-    padding: 5px 1px;
+    padding: 4px 1px;
     width: 100%;
     text-align: center;
     margin-top: 5px;
@@ -464,11 +464,6 @@ footer{
     font-size: 9px;
     letter-spacing: 1px;
 
-    flex-wrap: wrap;
-
-    display: block;
-
-    padding: 10px 40px;
 }
 
 .menu-nav a{
@@ -476,58 +471,99 @@ footer{
     width: 100%;
     text-align: center;
     margin-top: 5px;
+
+    font-weight: 100;
+}
+
+.fundo{
+    min-width: 100%;
 }
     /* FIM/HEADER */
 
     /* CAPA */
 
+.fundo{
+    min-width: 100%;
+}
+
 .capa{
     min-height: 90vh;
+    align-items: center;
 }
 
 .capa h1{
-    font-size: 50px;
-    max-width: 100%;
-    margin-bottom: 0px;
-    text-shadow: 3px 3px 2px #000000;
+    display: none;
+}
+
+.capa img{
+    display: flex;
+    padding-right: 320px;
+    padding-top: 100px;
+    border-style: none;
 }
 
 .capa h2{
-    max-width: 100%;
     font-size: 20px;
     padding: 5px 10px 5px 10px;
     text-align: center;
+    padding-right: 000px ;
+    margin-right: 335px;
+    text-align: center;
+    display: flex;
+    min-width: 375px;
+}
+
+.capa .botao{
+    margin-right: 320px;
+    padding: 5px 30px;
 }
 
      /* FIM/CAPA */
 
-     /* PROJETO */
+     /* PROBLEMAS */
 
-     .projeto{
-         flex-direction: column;
+     .problemas{
+         display: flex;
+         
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+
+         flex-wrap: wrap;
+
+         max-width: 100%;
+         padding: 30px 0px 20px 0px;
+
      }
 
-    .sobre-projeto{
-         padding: 20px;
+    .sobre-problemas{
+        flex-direction: column;
+        padding-right: 20px;
+        max-width: 100%;
     }
 
     .video{
-        flex: 1;
-        padding: 0px 5px;
-        width: 100%;
-     }
-
-    .video iframe{
-        width: 100%;
-        height: 100%;
+         width: 600px;
+         height: 300px;
     }
 
+    .problemas p{
+        flex-wrap: wrap;
+    }
+
+    .problemas iframe{
+        max-width: 100%;
+        padding: 0;
+    }
     /* SELEÇÃO */
 
-    .selecao{
+    .Sugestões{
         flex-direction: column;
     }
 
+    .t-Sugestões{
+        margin-left: 20px;
+    }
     /* FIM/SELEÇÃO */
 
     /* ECOPONTOS */
@@ -549,6 +585,10 @@ footer{
 
     .foto{
         padding: 0px 5px;
+    }
+
+    .foto img{
+        margin-left: 85px;
     }
 
     /* FOOTER */
