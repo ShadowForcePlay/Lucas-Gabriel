@@ -520,8 +520,7 @@ footer{
     margin-left: -330px;
 }
 
-.capa .botao{
-    border-left: 3px solid greenyellow;
+.capa .botao{border-left: 3px solid greenyellow;
     border-right: 3px solid greenyellow;
     padding: 6px 20px;
     text-decoration: none;
