@@ -136,7 +136,6 @@ html, body{
     border-left: #a21942 solid 6px;
     font-size: 30px;
     text-align: left;
-    padding-right: 400px;
     padding-left: 10px;
 }
 
@@ -451,7 +450,7 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    width: 56%;
+    width: 0px;
 }
 
 .menu-nav{
@@ -463,7 +462,6 @@ footer{
     font-weight: bold;
     font-size: 9px;
     letter-spacing: 1px;
-
 }
 
 .menu-nav a{
@@ -480,10 +478,6 @@ footer{
 
     /* CAPA */
 
-.fundo{
-    min-width: 100%;
-}
-
 .capa{
     min-height: 90vh;
     align-items: center;
@@ -496,8 +490,7 @@ footer{
 
 .capa img{    
     margin: 0;
-    font-size: 17px;
-    width: 360px;
+    width: 250px;
     font-size: 20px;
     padding: 5px 10px;
     align-items: center;
@@ -505,7 +498,6 @@ footer{
     padding-top: 120px;
     margin-left: -330px;
     border-style: none;
-    width: 250px;
 }
 
 .capa p{
@@ -520,17 +512,9 @@ footer{
     margin-left: -330px;
 }
 
-.capa .botao{border-left: 3px solid greenyellow;
-    border-right: 3px solid greenyellow;
-    padding: 6px 20px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-    background-color: #a21942;
-    border-radius: 4px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.capa .botao{
+    margin-left: -315px;
+    padding: 5px 30px;
 }
 
      /* FIM/CAPA */
