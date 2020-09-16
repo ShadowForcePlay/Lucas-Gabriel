@@ -450,7 +450,7 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    width: 0px;
+    width: 0;
 }
 
 .menu-nav{
@@ -490,7 +490,6 @@ footer{
 
 .capa img{    
     margin: 0;
-    width: 250px;
     font-size: 20px;
     padding: 5px 10px;
     align-items: center;
@@ -498,11 +497,11 @@ footer{
     padding-top: 120px;
     margin-left: -330px;
     border-style: none;
+    width: 250px;
 }
 
 .capa p{
     margin: 0;
-    font-size: 17px;
     width: 360px;
     font-size: 20px;
     padding: 5px 10px;
