@@ -80,11 +80,8 @@ html, body{
 }
 
 .capa p{
-    max-width: 500px;
-    font-size: 20px;
-    margin-top: 20px;
     color: white;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
     line-height: 1.4;
     font-weight: bold;
@@ -503,8 +500,7 @@ footer{
 }
 
 .capa p{
-    margin-right: 0px;
-    min-width: 350px;
+    flex-wrap: wrap;
 }
 
 .capa .botao{
