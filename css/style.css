@@ -46,7 +46,7 @@ html, body{
 /* CAPA */
 
 .fundo{
-    background-image: url(../img/foto-capa.jpg);
+    background-color: #f7f7f7;
     min-height: 750px;
 }
 
@@ -70,7 +70,7 @@ html, body{
     font-size: 50px;
     max-width: 700px;
     margin-bottom: 25px;
-    color: white;
+    color: black;
     margin-top: 90px;
 }
 
@@ -83,7 +83,7 @@ html, body{
     max-width: 500px;
     font-size: 20px;
     margin-top: 20px;
-    color: white;
+    color: black;
     text-align: center;
     justify-content: center;
     line-height: 1.4;
