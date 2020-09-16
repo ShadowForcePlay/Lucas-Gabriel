@@ -549,7 +549,10 @@ footer{
         max-width: 100%;
         padding: 0;
     }
-    /* SELEÇÃO */
+
+    /* FIM PROBLEMAS */
+
+    /* SUGESTOES */
 
     .Sugestões{
         flex-direction: column;
@@ -558,9 +561,9 @@ footer{
     .t-Sugestões{
         margin-left: 20px;
     }
-    /* FIM/SELEÇÃO */
+    /* FIM/SUGESTOES */
 
-    /* ECOPONTOS */
+    /* ONGs */
 
     .container-cards{
         flex-direction: column;
@@ -568,9 +571,11 @@ footer{
     }
 
     .card-ongs{
+        max-width: 360px;
         min-height: 380px;
     }
 
+    /* FIM ONGs */
     
     /* SOBRE MIM */
 
@@ -589,6 +594,8 @@ footer{
     .foto img{
         margin-left: 85px;
     }
+
+    /* FIM SOBRE MIM */
 
     /* FOOTER */
 
