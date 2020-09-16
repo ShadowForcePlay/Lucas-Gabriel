@@ -563,6 +563,14 @@ footer{
     }
     /* FIM/SUGESTOES */
 
+    /* NUMEROS */
+
+    .numeros{
+        max-width: 360px;
+    }
+
+    /* FIM NUMEROS */
+
     /* ONGs */
 
     .container-cards{
@@ -571,7 +579,6 @@ footer{
     }
 
     .card-ongs{
-        max-width: 360px;
         min-height: 380px;
     }
 
