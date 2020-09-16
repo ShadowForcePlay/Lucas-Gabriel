@@ -451,6 +451,7 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 0px;
+    width: 56%;
 }
 
 .menu-nav{
@@ -486,7 +487,7 @@ footer{
 .capa{
     min-height: 90vh;
     align-items: center;
-    max-width: 56%;
+    max-width: 100%;
 }
 
 .capa h1{
